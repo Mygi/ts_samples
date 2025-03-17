@@ -1,0 +1,26 @@
+{
+  "name": "node_samples",
+  "version": "1.0.0",
+  "description": "A set of node samples",
+  "keywords": [
+    "node.js"
+  ],
+  "homepage": "https://github.com/Mygi/ts_samples#readme",
+  "bugs": {
+    "url": "https://github.com/Mygi/ts_samples/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mygi/ts_samples.git"
+  },
+  "license": "ISC",
+  "author": "Mygi",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.2"
+  }
+}
