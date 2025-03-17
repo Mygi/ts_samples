@@ -22,12 +22,17 @@
     "compile": "npx tsc"
   },
   "devDependencies": {
+    "@types/axios": "^0.9.36",
     "@types/jest": "^29.5.14",
     "@types/node": "^22.13.10",
+    "axios": "^1.8.3",
     "gts": "^6.0.2",
     "jest": "^29.7.0",
     "ts-jest": "^29.2.6",
     "ts-node-dev": "^2.0.0",
     "typescript": "^5.8.2"
+  },
+  "dependencies": {
+    "axios-typescript": "^1.0.2"
   }
 }
