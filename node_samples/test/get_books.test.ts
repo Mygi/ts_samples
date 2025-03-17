@@ -3,8 +3,6 @@ import { get_books } from "../services/restful_service";
 
 import * as fs from 'fs';
 
-const content = 'Some content!';
-
 function write_log(content:string) {
     fs.writeFile('log.txt', content, err => {
     if (err) {
