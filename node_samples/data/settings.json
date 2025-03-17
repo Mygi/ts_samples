@@ -1,0 +1,245 @@
+{
+    "py/object": "halovision.engine.model.project.settings_model.AvailableSettingsModel",
+    "_microscopes": [
+        {
+            "py/object": "halovision.engine.model.project.microscope_model.MicroscopeModel",
+            "_make": "Nikon",
+            "_model": "Eclipse E100",
+            "_product_id": "E100LED MV R",
+            "_serial_number": "757869"
+        },
+        {
+            "py/object": "halovision.engine.model.project.microscope_model.MicroscopeModel",
+            "_make": "Nexcope",
+            "_model": "NE920",
+            "_product_id": "NXNE920",
+            "_serial_number": "G023034578"
+        }
+    ],
+    "_objectives": [
+        {
+            "py/object": "halovision.engine.model.project.microscope_model.ObjectiveModel",
+            "_make": "Nikon",
+            "_model": "50x LU Plan",
+            "_product_id": "",
+            "_aperture": 0.55,
+            "_working_distance": 10.1,
+            "_magnification": 50
+        },
+        {
+            "py/object": "halovision.engine.model.project.microscope_model.ObjectiveModel",
+            "_make": "Nexcope",
+            "_model": "40x 0.65 NA",
+            "_product_id": "NE-NIS60-P40",
+            "_aperture": 0.65,
+            "_working_distance": 0.7,
+            "_magnification": 40
+        },
+        {
+            "py/object": "halovision.engine.model.project.microscope_model.ObjectiveModel",
+            "_make": "Nexcope",
+            "_model": "40x 0.75 NA",
+            "_product_id": "NE-NIS60-SPA40",
+            "_aperture": 0.75,
+            "_working_distance": 1.35,
+            "_magnification": 40
+        },
+        {
+            "py/object": "halovision.engine.model.project.microscope_model.ObjectiveModel",
+            "_make": "Nexcope",
+            "_model": "20x",
+            "_product_id": "NE-NIS60-P20",
+            "_aperture": 0.4,
+            "_working_distance": 13.36,
+            "_magnification": 4
+        },
+        {
+            "py/object": "halovision.engine.model.project.microscope_model.ObjectiveModel",
+            "_make": "Nexcope",
+            "_model": "10x",
+            "_product_id": "NE-NIS60-P20",
+            "_aperture": 0.25,
+            "_working_distance": 10.2,
+            "_magnification": 10
+        }
+    ],
+    "_sources": [
+        {
+            "py/object": "halovision.engine.model.project.settings_model.AvailableOptionModel",
+            "_icon": "",
+            "_name": "Spheres",
+            "_id": "2dd57c39-2956-4732-a97a-758c8d937f03"
+        },
+        {
+            "py/object": "halovision.engine.model.project.settings_model.AvailableOptionModel",
+            "_icon": "",
+            "_name": "Rods",
+            "_id": "19e6bada-a1dc-4217-84b2-83bc7d46f961"
+        },
+        {
+            "py/object": "halovision.engine.model.project.settings_model.AvailableOptionModel",
+            "_icon": "",
+            "_name": "Mixed",
+            "_id": "cc2d1388-b7ed-42d2-92a2-43fdbbde5466"
+        }
+    ],
+    "_analysis": [
+        {
+            "py/object": "halovision.engine.model.project.settings_model.AvailableOptionModel",
+            "_icon": "",
+            "_name": "Sphere Metrology",
+            "_id": "9e950d83-f313-4406-83a5-c275fb7b071b"
+        },
+        {
+            "py/object": "halovision.engine.model.project.settings_model.AvailableOptionModel",
+            "_icon": "",
+            "_name": "Particle Count",
+            "_id": "97b94895-f8ee-40f2-b4a9-e8f2616da52f"
+        },
+        {
+            "py/object": "halovision.engine.model.project.settings_model.AvailableOptionModel",
+            "_icon": "",
+            "_name": "Halo Imaging",
+            "_id": "78edaccb-5e28-4035-8325-6c6d0a27a9e7"
+        }
+    ],
+    "_reports": [
+        {
+            "py/object": "halovision.engine.model.project.settings_model.AvailableOptionModel",
+            "_icon": "",
+            "_name": "Diameter Metrology",
+            "_id": "5117e581-0b5e-4ec8-b993-3f60c5ed520e"
+        },
+        {
+            "py/object": "halovision.engine.model.project.settings_model.AvailableOptionModel",
+            "_icon": "",
+            "_name": "Particle Count",
+            "_id": "82c177c5-21b9-4547-b6f1-ac88d257dbd1"
+        },
+        {
+            "py/object": "halovision.engine.model.project.settings_model.AvailableOptionModel",
+            "_icon": "",
+            "_name": "Imaging",
+            "_id": "b612612c-fd47-41a8-a1f4-062f2f61a9ea"
+        }
+    ],
+    "_halovision_instance": "Azure",
+    "_license_id": "5d34261f-bedd-4d83-a8d3-4d193a651b21",
+    "_halo": {
+        "py/object": "halovision.engine.model.project.hardware_model.HaloElementModel",
+        "_product_id": 10,
+        "_vendor_id": 4617,
+        "_firmware_version": 2,
+        "_comm_port": "COMM14",
+        "_led_timeout_us": 5000,
+        "_frame_duration": 16400,
+        "_ramp_time": 50,
+        "_led_colour": "Red",
+        "_power": 1023,
+        "_serial_number": "TBT TRALABM",
+        "_halo_version": 1.0,
+        "_build_date": 20230801
+    },
+    "_camera": {
+        "py/object": "halovision.engine.model.project.hardware_model.CameraDetailsModel",
+        "_make": "FLIR",
+        "_model": "Grasshopper USB 3.1",
+        "_gain": 2.0,
+        "_exposure": 0.2,
+        "_width": 2048,
+        "_height": 1536,
+        "_depth": 16,
+        "_serial_number": "22577490",
+        "_acquisition_type": 0,
+        "_hardware_trigger": 7
+    },
+    "_colour_schemes": [
+        {
+            "py/object": "halovision.engine.model.project.settings_model.AvailableOptionModel",
+            "_icon": "",
+            "_name": "Rainbow",
+            "_id": "3c13466b-75d6-4cbe-ad01-3d1f89effdc4"
+        },
+        {
+            "py/object": "halovision.engine.model.project.settings_model.AvailableOptionModel",
+            "_icon": "",
+            "_name": "Greyscale",
+            "_id": "20d39e73-2f0c-430d-9ed7-76f6a7f70908"
+        }
+    ],
+    "_anulus_shims": [
+        {
+            "py/object": "halovision.engine.model.project.settings_model.AvailableOptionModel",
+            "_icon": "",
+            "_name": "Shim ON",
+            "_id": ""
+        },
+        {
+            "py/object": "halovision.engine.model.project.settings_model.AvailableOptionModel",
+            "_icon": "",
+            "_name": "Shim Not used",
+            "_id": "None"
+        }
+    ],
+    "_cover_slips": [],
+    "_camera_triggers": [
+        {
+            "py/object": "halovision.engine.model.project.settings_model.AvailableOptionModel",
+            "_icon": "",
+            "_name": "Software Triggered",
+            "_id": "6"
+        },
+        {
+            "py/object": "halovision.engine.model.project.settings_model.AvailableOptionModel",
+            "_icon": "",
+            "_name": "Hardware Triggered",
+            "_id": "7"
+        }
+    ],
+    "_illumination_modes": [
+        {
+            "py/object": "halovision.engine.model.project.settings_model.AvailableOptionModel",
+            "_icon": "",
+            "_name": "Red",
+            "_id": "Red"
+        },
+        {
+            "py/object": "halovision.engine.model.project.settings_model.AvailableOptionModel",
+            "_icon": "",
+            "_name": "Blue",
+            "_id": "Blue"
+        },
+        {
+            "py/object": "halovision.engine.model.project.settings_model.AvailableOptionModel",
+            "_icon": "",
+            "_name": "White",
+            "_id": "White"
+        },
+        {
+            "py/object": "halovision.engine.model.project.settings_model.AvailableOptionModel",
+            "_icon": "",
+            "_name": "Green",
+            "_id": "Green"
+        },
+        {
+            "py/object": "halovision.engine.model.project.settings_model.AvailableOptionModel",
+            "_icon": "",
+            "_name": "Off",
+            "_id": "Off"
+        }
+    ],
+    "CoverShims": [
+        {
+            "py/object": "halovision.engine.model.project.settings_model.AvailableOptionModel",
+            "_icon": "",
+            "_name": "Cover Slip On",
+            "_id": "True"
+        },
+        {
+            "py/object": "halovision.engine.model.project.settings_model.AvailableOptionModel",
+            "_icon": "",
+            "_name": "Cover Slip Not Used",
+            "_id": "False"
+        }
+    ]
+}
